@@ -1,0 +1,58 @@
+body {
+	color: #4d3434;
+	font-family: cursive, Helvetica, sans-serif;
+	margin: 0;
+	background: #ffe9c0;
+}
+
+.stage {
+	width: 76%;
+	margin: 0 auto;
+	padding: 0 12%;
+	text-align: center;
+	overflow: hidden;
+}
+
+div h1.titleofsite{
+	font-family: cursive;
+}
+
+.logo{
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.dspa{
+	margin-top: 11px;
+	margin-bottom: 10px;
+}
+
+.business-header {
+    height: 570px;
+    background: url('file:///Users/zeanspectacles/Downloads/La%20Confiserie%20(updated)/img/about.png') center center no-repeat scroll;
+    margin-left: 80px;
+    margin-right: 80px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+
+
+
+
+footer {
+	font-family: sans-serif;
+	text-align: center;
+    margin: 50px 0;
+}

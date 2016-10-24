@@ -1,0 +1,43 @@
+body {
+	color: #4d3434;
+	font-family: cursive, Helvetica, sans-serif;
+	margin: 0;
+	background: #ffe9c0;
+}
+
+.stage {
+	width: 76%;
+	margin: 0 auto;
+	padding: 0 12%;
+	text-align: center;
+	overflow: hidden;
+}
+
+div h1.titleofsite{
+	font-family: cursive;
+}
+
+.logo{
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.dspa{
+	margin-top: 11px;
+	margin-bottom: 10px;
+}
+
+img{
+	max-height: 460px;
+	max-width: 630px;
+}
+
+h1{
+	text-align: center;
+}
+
+footer {
+	font-family: sans-serif;
+	text-align: center;
+    margin: 50px 0;
+}
