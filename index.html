@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <head>
 
-	<title>La Confiserie</title>
-
-  	<meta charset="utf-8" />
+  	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>la confiserie</title>
+
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-  	<link href="css/styles.css" rel="stylesheet">
+  	<link href="css/home.css" rel="stylesheet">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -17,8 +19,7 @@
 
 	<div class="stage">
 
-		<h1>La Confiserie</h1>
-
+		<h1 class="titleofsite">la confiserie</h1>
 		<nav class="navbar navbar-inverse">
   			<div class="container-fluid">
     			<div class="navbar-header">
@@ -30,52 +31,49 @@
     			</div>
     			<div class="collapse navbar-collapse" id="myNavbar">
       				<ul class="nav navbar-nav">
-        
-        				<li><a href="#">Desserts</a></li>
-        				<li><a href="#">Snacks</a></li>
-        				<li class="active"><a href="#">(logo)</a></li>
-        				<li><a href="#">Places</a></li>
-        				<li><a href="#">About us</a></li>
-      				</ul>
+                        <li class="dspa"><a href="about.html">about</a></li>
+                        <li>
+                            <a href="index.html">
+                            <img class="logo img-circle img-responsive img-center" src="img/logo.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="dspa"><a href="galleryone.html">gallery</a></li>
+                    </ul>
     			</div>
   			</div>
   		</nav>
 
-
 		<div id="SLDR-ONE" class="sldr">
 			<ul class="wrp animate">
-				<li class="elmnt-one"><div class="skew"><div class="wrap"><img src="img/00 big (1).jpg" width="700" height="200"></div></div></li>
-				<li class="elmnt-two"><div class="skew"><div class="wrap"><img src="img/00 big (2).jpg" width="700" height="200"></div></div></li>
-				<li class="elmnt-three"><div class="skew"><div class="wrap"><img src="img/00 big (3).jpg" width="700" height="200"></div></div></li>
-				<li class="elmnt-four"><div class="skew"><div class="wrap"><img src="img/00 big (4).jpg" width="700" height="200"></div></div></li>
+				<li class="elmnt-one"><div class="skew"><div class="wrap"><img class="sldrimg" src="img/00 big (1).jpg"></div></div></li>
+				<li class="elmnt-two"><div class="skew"><div class="wrap"><img class="sldrimg" src="img/00 big (2).jpg"></div></div></li>
+				<li class="elmnt-three"><div class="skew"><div class="wrap"><img class="sldrimg" src="img/00 big (3).jpg"></div></div></li>
+				<li class="elmnt-four"><div class="skew"><div class="wrap"><img class="sldrimg" src="img/00 big (4).jpg"></div></div></li>
 			</ul>
 		</div>
 
 		<div class="clear"></div>
 
-		<div class="captions">
-			<div class="focalPoint"><p><small>caption</small></p></div>
-			<div><p><small>caption</small></p></div>
-			<div><p><small>caption</small></p></div>
-			<div><p><small>caption</small></p></div>
-		</div>
-
 		<ul class="selectors">
-			<li class="focalPoint"><a href="">.</a></li><li><a href="">.</a></li><li><a href="">.</a></li><li><a href="">.</a></li>
+                <li class="focalPoint">
+                    <a href="">.</a>
+                </li>
+                <li>
+                    <a href="">.</a>
+                </li>
+                <li>
+                    <a href="">.</a>
+                </li>
+                <li>
+                    <a href="">.</a>
+                </li>
 		</ul>
 
 		<button class="sldr-prv sldr-nav prev"><</button>
 		<button class="sldr-nxt sldr-nav next">></button>
 
-		<p>blah</p>
-		<p style="float:left;">&#8596;&nbsp;</p>
-		<p style="float:right;">&nbsp;&#8596;</p>
-
 		<div class="clear"></div>
 
-		<br>
-		<br>
-		<br>
 		<br>
 		<br>
 
@@ -128,95 +126,126 @@
 	function slideComplete( args ) {
 
 	}
+
 	</script>
 	<style>
 		.navbar{
+            font-family: sans-serif;
 			display: flex;
-			text-align: center;
-			padding-right: 100px;
-			padding-left: 100px;
+			align-items: center;
+			width: 100%;
+			background: rgba(0,0,0,0);
+			border: none;
+			color: #a18072;
 		}
 	</style>
+
 	<div class="container">
 		<div class="row">
 			
-			<div class="col-md-4">
-				<a href="#" class="thumbnail">
-					<p>Caption</p>
-        			<img src="img/00 big (1).jpg" width="304" height="236">
-        		</a>
+			<div class="col-sm-4">
+				
+        			<img src="img/11.png" class="img-rounded img-responsive img-center" alt="">
+        		
     		</div>
 
-    		<div class="col-md-4">
-				<a href="#" class="thumbnail">
-					<p>Caption</p>
-        			<img src="img/00 big (2).jpg" width="304" height="236">
-        		</a>
+    		<div class="col-sm-4">
+				
+        			<img src="img/12.png" class=" img-rounded img-responsive img-center" alt="">
+        		
     		</div>
 
-    		<div class="col-md-4">
-				<a href="#" class="thumbnail">
-					<p>Caption</p>
-        			<img src="img/00 big (3).jpg" width="304" height="236">
-        		</a>
+    		<div class="col-sm-4">
+				
+        			<img src="img/13.png" class="img-rounded img-responsive img-center" alt="">
+        		
     		</div>
 
     	</div>
     </div>
 
-	<p>insert welcoe and about us here</p>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
 
-	<div class="container">
-		<div class="row">
+	<div class="container-fluid">
+		<hr>
 
-    		<div class="dropup">
-    			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">caption
-    				<span class="caret"></span>
+			<div class="row">
+				<div>
+					<h1>gallery of:</h1>
+				</div>
+			</div>
 
-    				<div class="col-md-4">
-    					<a href="#" class="thumbnail">
-							<img src="img/for text.png" class="img-circle" width="100" height="100">
-						</a>
-					</div>
-    			</button>
-    			<ul class="dropdown-menu">
-    				<li>
-    					<a href="#" class="thumbnail">
-							<img src="img/00 big (1).jpg" class="img-circle" width="304" height="236">
-						</a>
-					</li>
-				</ul>
-    		</div>
+        <hr>
 
-    		<div class="dropup">
-    			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">caption
-    				<span class="caret"></span>
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/2.png" alt="">
+                <h3>cookies</h3>
+            </div>
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/7.png" alt="">
+                <h3>truffles</h3>
+            </div>            
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/3.png" alt="">
+                <h3>cupcakes</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/4.png" alt="">
+                <h3>dips</h3>
+            </div>
+            <div class="col-sm-4">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+                <h3>&</h3>
+            </div>
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/1.png" alt="">
+                <h3>cakes</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/5.png" alt="">
+                <h3>ice cream</h3>
+            </div>
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/6.png" alt="">
+                <h3>macaroons</h3>
+            </div>
+            <div class="col-sm-4">
+                <img class="ccs img-responsive img-center" src="img/8.png" alt="">
+                <h3>waffles</h3>
+            </div>
+        </div>
+        <!-- /.row -->
 
-    				<div class="col-md-4">
-    					<a href="#" class="thumbnail">
-							<img src="img/for text.png" class="img-circle" width="100" height="100">
-						</a>
-					</div>
-    			</button>
-    			<ul class="dropdown-menu">
-    				<li>
-    					<a href="#" class="thumbnail">
-							<img src="img/00 big (2).jpg" class="img-circle" width="304" height="236">
-						</a>
-					</li>
-				</ul>
-    		</div>
+        <hr>
 
-    	
-    	</div>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; Huab & Catabian<br>2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
     </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
